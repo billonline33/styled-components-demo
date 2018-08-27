@@ -1,0 +1,43 @@
+/* banner style */
+.banner {
+  font-family: 'Open Sans', sans-serif;
+}
+.banner-container {
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 50px;
+  height: 100vh;
+  width: 1200px;
+}
+/* Banner container */
+.banner-image {
+  position: relative;
+  max-width: 500px;
+}
+/* Banner elements */
+.banner-image > img {
+  width: 100%;
+}
+a.banner-link {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  height: calc(100% / 3);
+  width: 100%;
+}
+.banner-link img {
+  margin: 15px;
+  height: calc(100% - 30px);
+}
+.banner-link p {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
