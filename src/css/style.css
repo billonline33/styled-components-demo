@@ -18,6 +18,7 @@
 .banner-image > img {
   width: 100%;
 }
+/*
 a.banner-link {
   background-color: rgba(0, 0, 0, 0.7);
 
@@ -30,6 +31,7 @@ a.banner-link {
   height: calc(100% / 3);
   width: 100%;
 }
+*/
 .banner-link img {
   margin: 15px;
   height: calc(100% - 30px);
